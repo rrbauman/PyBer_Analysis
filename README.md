@@ -20,6 +20,7 @@ There were 5 key metrics being calculated in doing the PyBer ridershare analysis
 
 ## PyBer Analysis Summary
 If we look at the metrics in the above output and the below data graph
+![PyBer_Analysis](./Pyber_summary_df.png)
 ![PyBer_Analysis](./TotalFaresbyCityType2.png)
 
 - As expected, and noted above, as we go from a very populate urban area in a smaller space compared to a less populated suburban area, again compared to the area of land, and then finally to the rural area, which would have the greatest amount of land expanse to traverse as a driver to get from point A to point B, the fare per ride and driver would increase.
