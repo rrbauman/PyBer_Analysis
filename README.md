@@ -11,27 +11,20 @@ There were 5 key metrics being calculated in doing the PyBer ridershare analysis
 ![PyBer_Analysis](./Pyber_summary_df.png)
 ### Total Rides per City Type - This metric, shows that as you go from Urban to Suburban to Rural, the number of rides decreases.  This would be expected, partly due to the population of those areas; Less people = less required rides.
 
-### Total Drivers - Similar to rides per city type, this metric as you go from Urban to Suburban to Rural, the number of drivers decreases.  This would be expected, again partly due to the population of those areas.
+### Total Drivers per City Type  - Similar to rides per city type, this metric as you go from Urban to Suburban to Rural, the number of drivers decreases.  This would be expected, again partly due to the population of those areas.
 
-### Total Fares - Total fares would be impacted by the above two factors, Total Rides per City Type and Total Drivers.
+### Total Fares per City Type  - Total fares would be impacted by the above two factors, Total Rides per City Type and Total Drivers.
 
-### Average Fare per ride - this metric indicates that as the area of driving increases, so does the fare.  Therefore, you would expect the average fare to be higher as the distances of the rides becomes further.
+### Average Fare per ride per City Type - this metric indicates that as the area of driving increases, so does the fare.  Therefore, you would expect the average fare to be higher as the distances of the rides becomes further.
 
-### Average Fare per Driver - same as above metric, Average Fare per Ride, this metric would increase as the distances increase as you go from Urban all the way to Rural.
--
-* School District Analysis
-There are seven key metrics being calculated and some were impacted by the change in math and reading scores but some were not, here are my findings:
-#### 1. Total School Budget - this metric would not be impacted by a change in math or reading scores as they are not part of the calculation.
-#### 2. Per Student Budget - as with Total School Budget, Per Student Bedget metric would not be impacted by a change in math and reading scores.
-#### 3. Average Math Score - the change in average math score after the 9th grade data was set to NaN and all the calculations adjustments were made was very small for Thomas High School; the original % was 83.418349 and changed to 83.350937, which is a -.08% change.  This is less than signifigant once the numbers are rounded to the 1 decimal place.
-#### 4. Average Reading Score - similar to the match average, the change in average reading score after the 9th grade data was set to NaN and all the calculations adjustments were made, was very small for Thomas High School; the original % was 83.848930 and changed to 83.896082, which is a +.05% increase.  This is less than signifigant once the numbers are rounded to the 1 decimal place.
-#### 5. % Passing Math - as with the Average Math and Reading Scores, the % Passing Math only changed by an insignifigant amount. The original calulation of 93.272171 changed to  93.185690 which is a decrease of .09 %, as expecte from previous metric changes.
-#### 6. % Passing Reading amount showed the largest change of a decrease of .30 % as the numbers went from 97.308869 to 97.018739. While the biggest difference, while still a small amount, both math and reading % passing both went down.
-#### 7. % Overall Passing - because both the % Passing Math and Reading both went down, we would expect to see the cumulative effect on the Overall Passing, which we do. The Thomas High School, % Overall Passing went from 90.948012 to 90.630324 which is an overall change of - .34 %. Again, because the % Passing Reading had a .30 % drop we would see it reflected here. 
-![School_District_Analysis](./original_per_school_summary.png)
-![School_District_Analysis](./challenge_per_school_summary.png)
+### Average Fare per Driver per City Type - same as above metric, Average Fare per Ride, this metric would increase as the distances increase as you go from Urban all the way to Rural.
 
-## School District Analysis Summary
+## PyBer Analysis Summary
+If we look at the metrics in the above output and the below data graph,
+![PyBer_Analysis](./TotalFaresbyCityType.png)
+
+
+*School District Analysis Summary
 If we look at the differnce between the Original Spending Summary dataframe and the Challenge Spending Summary dataframe (attached below), we can see there were 5 changes to the school distict analysis in the category that Thomas High School was grouped into due to their school's spending range of $630 to $644.  The other ranges would not have been affected by the changes to Thomas High School, as as expected, there are not changes in the other ranges.
 
 ### For the range of $630 to $644 that Thomas school was in we see the following changes BEFORE we format the dataframe:
