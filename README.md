@@ -21,8 +21,7 @@ There were 5 key metrics being calculated in doing the PyBer ridershare analysis
 
 ## PyBer Analysis Summary
 If we look at the metrics in the above output and the below data graph,
-![PyBer_Analysis](./TotalFaresbyCityType.png)
-
+![PyBer_Analysis](.//TotalFaresbyCityType.png)
 
 *School District Analysis Summary
 If we look at the differnce between the Original Spending Summary dataframe and the Challenge Spending Summary dataframe (attached below), we can see there were 5 changes to the school distict analysis in the category that Thomas High School was grouped into due to their school's spending range of $630 to $644.  The other ranges would not have been affected by the changes to Thomas High School, as as expected, there are not changes in the other ranges.
