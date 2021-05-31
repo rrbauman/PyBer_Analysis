@@ -2,17 +2,13 @@
 5 Matplotlib, Scipy, Pandas and Nympy.
 
 ## PyBer Analysis Overview
-Omar and I have been asked by V. Isualize to use Python and Pandas, to create summary data based on the PyBer input .csv ride sharing tables that were provided. The end output should be created using Pandas and Matplotlib to create a multiple-line graph that shows the total weekly fares for each city type: Urban, Suburban and Rural.  This report should provide required summary output.
-
-(you’ll create a summary DataFrame of the ride-sharing data by city type. Then, using Pandas and Matplotlib, you’ll create a multiple-line graph that shows the total weekly fares for each city type. Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.)
-
-* School District Analysis Overview
-I have been working with Maria on created various data elements concerned with district-wide statistics and the impact of budget, school type and number of students per school affect testing results.  Maria and her supervisor were recently notified by the school board that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. She has asked me to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. After that is completed, Maria requested that I recalculate the data for the school district analysis report back the * impact.
-
+Omar and I have been asked by V. Isualize to use Python and Pandas, to create summary data based on the PyBer input .csv ride sharing tables that
+were provided. The end output should be created using Pandas and Matplotlib to create a multiple-line graph that shows the total weekly fares
+foreach city type: Urban, Suburban and Rural. This report should provide required summary output.
 
 ## PyBer Analysis Results:
-There were 5 key metrics being calculated in doing the PyBer ridershare analysis.  Below are the details uncovered for each:
-
+There were 5 key metrics being calculated in doing the PyBer ridershare analysis.  Below are the details uncovered for each metric as shown in attached shot of the dataframe created with reesult of analysis:
+![PyBer_Analysis](./Pyber_summary_df.png)
 ### Total Rides per City Type - This metric, shows that as you go from Urban to Suburban to Rural, the number of rides decreases.  This would be expected, partly due to the population of those areas; Less people = less required rides.
 
 ### Total Drivers - Similar to rides per city type, this metric as you go from Urban to Suburban to Rural, the number of drivers decreases.  This would be expected, again partly due to the population of those areas.
